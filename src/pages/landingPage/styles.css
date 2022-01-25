@@ -1,0 +1,58 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.jumbotron {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%);
+}
+
+.jumbotron__image {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.jumbotron__title {
+  font-size: 40px;
+  color: #000;
+  font-weight: 600;
+  padding: 40px;
+}
+
+.features {
+  display: flex;
+  gap: 20px;
+}
+
+.features__card {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 33%;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%);
+}
+
+.features__card__image {
+  width: 100%;
+  margin-bottom: 20px;
+  min-height: 275px;
+}
+
+.features__card__title {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  font-size: 20px;
+}
+
+.features__card__description {
+  margin: 0;
+  padding: 0 20px 20px;
+  font-size: 14px;
+}
